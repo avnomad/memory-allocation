@@ -25,7 +25,7 @@ using namespace System;
 int main(array<System::String ^> ^args)
 {
 	clock_t outTime , inTime;
-	ofstream outFile("c:/stats.txt");	// variables required for measuring and storing the results.
+	ofstream outFile("stats.txt");	// variables required for measuring and storing the results.
 
 	unsigned int order = 0;	// variables needed for the program itself.
 	double *A;
