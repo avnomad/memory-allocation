@@ -1,0 +1,9 @@
+syntax: regexp
+Debug/*
+Release/*
+ipch/*
+syntax: glob
+memory allocation.opensdf
+memory allocation.sdf
+memory allocation.suo
+memory allocation/stats.txt
