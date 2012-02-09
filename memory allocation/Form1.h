@@ -83,7 +83,7 @@ namespace MemoryAllocation {
 
 	private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e) {
 			clock_t outTime , inTime;
-			ofstream outFile("c:/stats.txt");	// variables required for measuring and storing the results.
+			ofstream outFile("stats.txt");	// variables required for measuring and storing the results.
 
 			unsigned int order = 0;	// variables needed for the program itself.
 			double *A;

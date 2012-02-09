@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memory allocation", "memory allocation\memory allocation.vcproj", "{C725006D-DFF2-4A85-887D-07EF45211315}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memory allocation", "memory allocation\memory allocation.vcxproj", "{C725006D-DFF2-4A85-887D-07EF45211315}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
