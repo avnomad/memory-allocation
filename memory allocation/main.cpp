@@ -48,15 +48,13 @@ int main()
 	{
 		inTime = clock();
 		A = new double[order*order];
-		for(int c = 0 ; c < order*order ; ++c)
+		for(unsigned int c = 0 ; c < order*order ; ++c)
 			A[c] = c;
 		delete[] A;
 		outFile<<clock()-inTime<<endl;
 	}
 
 	outFile<<"\n\n"<<clock()-outTime<<endl;
-
-
 
 	system("PAUSE");
 	return 0;
