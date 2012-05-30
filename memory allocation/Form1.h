@@ -94,8 +94,8 @@ namespace MemoryAllocation {
 			{
 				inTime = clock();
 				A = new double[order*order];
-				/*for(int c = 0 ; c < order*order ; ++c)
-					A[c] = c;*/
+				for(unsigned int c = 0 ; c < order*order ; ++c)
+					A[c] = c;
 				delete[] A;
 				outFile<<clock()-inTime<<endl;
 			}
