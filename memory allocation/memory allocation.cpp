@@ -36,7 +36,7 @@ int main(array<System::String ^> ^args)
 	{
 		inTime = clock();
 		A = new double[order*order];
-		for(int c = 0 ; c < order*order ; ++c)
+		for(unsigned int c = 0 ; c < order*order ; ++c)
 			A[c] = c;
 		delete[] A;
 		outFile<<clock()-inTime<<endl;
